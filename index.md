@@ -1,7 +1,27 @@
 ## Welcome to Srikanth's Tech Blog 
 
-## Querying Covid 19 Data using T-SQL on SQL Server
+### Covid 19 Data Analysis
 
+##### Project Overview
+1. Creating blank database with the name 'Covid19Data' (You can use a different name as per your convinience). 
+2. Downloading Latest Covid 19 Data from [https://ourworldindata.org/](https://ourworldindata.org/covid-deaths)
+3. Dividing the data into Covid19Deaths and Covid19Vaccinations.
+4. Uploading the data into tables of previoiusly created DB 'Covid19Data'.
+5. Data Exloration
+6. Data Cleaning
+7. Visualization
+8. Creating Dashboard
+
+
+Prerequisites:
+1. Should have SQL Server and SSMS installed on your machine. If not, please follow the steps on [www.c-sharpcorner.com](https://www.c-sharpcorner.com/article/how-to-install-sql-server-2019/) page to install the same.
+If your system is not running with windows 10, SQL Server 2019 Developer Edition is not compatible for your system. In that case you can download SQL Server 2017 Developer edition using this link [Download SQL Server 2017 Developer edition](https://download.microsoft.com/download/5/A/7/5A7065A2-C81C-4A31-9972-8A31AC9388C1/SQLServer2017-SSEI-Dev.exe)
+
+2. Basic SQL commands. [W3Schools](https://www.w3schools.com/sql/sql_syntax.asp) should be a good starting point if you dont have prior SQL hand on.
+
+
+
+1. Installing SQL Server Devoloper Edition and SSMS
 1. Here first we need to install SQL Server Devoloper Edition on your machine. If you have one, its well and fine.
 2. We will go with the basic installation of SQL server which avoids going through multiple cofiguration steps maually. You can follow the steps mentioned in [www.c-sharpcorner.com](https://www.c-sharpcorner.com/article/how-to-install-sql-server-2019/) website to proceed with the installation
 3. After installing both SQL Server and SSMS(Tool to connect to the SQL Server), we are good to proceed further.
