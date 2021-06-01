@@ -18,8 +18,8 @@
 Prerequisites:
 1. Should have SQL Server and SSMS installed on your machine. 
  
-     a. If not, please follow the steps on [www.c-sharpcorner.com](https://www.c-sharpcorner.com/article/how-to-install-sql-server-2019/) page to install the same. This link guides through the basic installation of SQL server which avoids going through multiple cofiguration steps maually.
-     b. If your system is not running with Windows 10 / Windows Server 2016 or greater, SQL Server 2019 Developer Edition isn't compatible for your machine. 
+     a. If not, please follow the steps on [www.c-sharpcorner.com](https://www.c-sharpcorner.com/article/how-to-install-sql-server-2019/) page to install the same. This link  guides through the basic installation of SQL server which avoids going through multiple cofiguration steps maually.
+     b. If your system is not running with Windows 10 / Windows Server 2016 or greater, SQL Server 2019 Developer Edition isn't compatible for your machine.
      c. In that case you can [Download SQL Server 2017 Developer edition](https://download.microsoft.com/download/5/A/7/5A7065A2-C81C-4A31-9972-8A31AC9388C1/SQLServer2017-SSEI-Dev.exe) using the link and follow the same steps as mentioned in [www.c-sharpcorner.com](https://www.c-sharpcorner.com/article/how-to-install-sql-server-2019/).
      d. After installing both SQL Server and SSMS(Tool to connect to the SQL Server), we are good to proceed further.
 
