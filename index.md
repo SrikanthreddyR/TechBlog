@@ -4,14 +4,11 @@
 ## Covid 19 Data Analysis
 
 #### Project Overview
-1. Creating blank database with the name 'Covid19Data' (You can use a different name as per your convinience). 
-2. Downloading Latest Covid 19 Data from [https://ourworldindata.org/](https://ourworldindata.org/covid-deaths)
-3. Dividing the data into Covid19Deaths and Covid19Vaccinations.
-4. Uploading the data as tables onto the previoiusly created DB 'Covid19Data'.
-5. Data Exloration
-6. Data Cleaning
-7. Visualization
-8. Creating Dashboard
+1. Loading latest Covid 19 Data from [https://ourworldindata.org/](https://ourworldindata.org/covid-deaths) onto SQL Server DB
+2. Data Exloration
+3. Data Cleaning
+4. Visualization
+5. Creating Dashboard
 
 
 
@@ -23,7 +20,18 @@
      - In that case you can [Download SQL Server 2017 Developer edition](https://download.microsoft.com/download/5/A/7/5A7065A2-C81C-4A31-9972-8A31AC9388C1/SQLServer2017-SSEI-Dev.exe) using the link and follow the same steps as mentioned in [www.c-sharpcorner.com](https://www.c-sharpcorner.com/article/how-to-install-sql-server-2019/).
      - After installing both SQL Server and SSMS(Tool to connect to the SQL Server), we are good to proceed further.
 
-- Basic SQL commands. [W3Schools](https://www.w3schools.com/sql/sql_syntax.asp) should be a good starting point if you dont have prior SQL hands on.
+- Basic SQL commands. [W3Schools](https://www.w3schools.com/sql/sql_syntax.asp) should be a good starting point if you don't have prior SQL hands on.
+
+
+
+
+
+1. Creating blank database with the name 'Covid19Data' (You can use a different name as per your convinience). 
+2. Downloading Latest Covid 19 Data from [https://ourworldindata.org/](https://ourworldindata.org/covid-deaths)
+3. Dividing the data into Covid19Deaths and Covid19Vaccinations.
+4. Uploading the data as tables onto the previoiusly created DB 'Covid19Data'.
+
+
 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
