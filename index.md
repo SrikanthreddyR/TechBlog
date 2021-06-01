@@ -1,6 +1,11 @@
-## Welcome to GitHub Pages
+## Welcome to Srikanth's Tech Blog 
 
-You can use the [editor on GitHub](https://github.com/SrikanthreddyR/TechBlog/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Querying Covid 19 Data using T-SQL on SQL Server
+
+1. Here first we need to install SQL Server Devoloper Edition on your machine. If you have one, its well and fine.
+2. We will go with the basic installation of SQL server which avoids going through multiple cofiguration steps maually. You can follow the steps mentioned in [www.c-sharpcorner.com](https://www.c-sharpcorner.com/article/how-to-install-sql-server-2019/) website to proceed with the installation
+3. After installing both SQL Server and SSMS(Tool to connect to the SQL Server), we are good to proceed further.
+
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
