@@ -4,15 +4,14 @@
 ## Covid 19 Data Analysis
 
 #### Project Overview
-1. Loading latest Covid 19 Data from [https://ourworldindata.org/](https://ourworldindata.org/covid-deaths) onto SQL Server DB
+1. Loading Covid 19 data into SQL Server Database
 2. Data Exloration
 3. Data Cleaning
 4. Visualization
 5. Creating Dashboard
+<br/>
 
-
-
-**Prerequisites:**
+#### Prerequisites:
 - Should have SQL Server and SSMS installed on your machine. 
  
      - If not, please follow the steps on [www.c-sharpcorner.com](https://www.c-sharpcorner.com/article/how-to-install-sql-server-2019/) page to install the same. This link  guides through the basic installation of SQL server which avoids going through multiple cofiguration steps maually.
@@ -22,9 +21,11 @@
 
 - Basic SQL commands. [W3Schools](https://www.w3schools.com/sql/sql_syntax.asp) should be a good starting point if you don't have prior SQL hands on.
 
+<br/>
 
 
-
+### 1. Loading Covid 19 data into SQL Server Database
+1. Loading latest Covid 19 Data from [https://ourworldindata.org/](https://ourworldindata.org/covid-deaths) onto SQL Server DB
 
 1. Creating blank database with the name 'Covid19Data' (You can use a different name as per your convinience). 
 2. Downloading Latest Covid 19 Data from [https://ourworldindata.org/](https://ourworldindata.org/covid-deaths)
