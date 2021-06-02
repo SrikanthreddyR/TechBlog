@@ -28,11 +28,20 @@
 
 ### 1. Loading Covid 19 data into SQL Server Database 
 
-<p> First we will download the data from [https://ourworldindata.org/](https://ourworldindata.org/covid-deaths). Navigate to link 
-     
-<p/>  
+First we will download the data from [https://ourworldindata.org/](https://ourworldindata.org/covid-deaths). Navigate to link and click on highlighted text as shown in the below image to download the latest Covid 19 Data.
+
+![download Covid19data](https://github.com/SrikanthreddyR/TechBlog/blob/main/Screenshots/owid_coviddata_download.PNG)
+
+Now we will import the 
+
+
+
+Now we will create 2 more excel files from the downloaded excel file. First one will be Covi19Deaths and Covid19Vaccinations.
+     - Open the downloaded excel file and include
+
+
  
- []
+ ![Hello](https://github.com/SrikanthreddyR/TechBlog/blob/main/Screenshots/Creating_Covid19WorldData_DB.PNG)
  
  
  Loading latest Covid 19 Data from [https://ourworldindata.org/](https://ourworldindata.org/covid-deaths) onto SQL Server DB
