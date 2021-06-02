@@ -1,0 +1,61 @@
+USE Covid19WorldData;  -- If you have created the DB with a different name, please use that in the place of 'Covid19WorldData'
+GO  
+CREATE TABLE [dbo].Covid19Deaths(
+	[iso_code] [nvarchar](255) NULL,
+	[continent] [nvarchar](255) NULL,
+	[location] [nvarchar](255) NULL,
+	[date] [datetime] NULL,
+	[population] [float] NULL,
+	[total_cases] [float] NULL,
+	[new_cases] [float] NULL,
+	[new_cases_smoothed] [float] NULL,
+	[total_deaths] [nvarchar](255) NULL,
+	[new_deaths] [nvarchar](255) NULL,
+	[new_deaths_smoothed] [float] NULL,
+	[total_cases_per_million] [float] NULL,
+	[new_cases_per_million] [float] NULL,
+	[new_cases_smoothed_per_million] [float] NULL,
+	[total_deaths_per_million] [nvarchar](255) NULL,
+	[new_deaths_per_million] [nvarchar](255) NULL,
+	[new_deaths_smoothed_per_million] [float] NULL,
+	[reproduction_rate] [nvarchar](255) NULL,
+	[icu_patients] [nvarchar](255) NULL,
+	[icu_patients_per_million] [nvarchar](255) NULL,
+	[hosp_patients] [nvarchar](255) NULL,
+	[hosp_patients_per_million] [nvarchar](255) NULL,
+	[weekly_icu_admissions] [nvarchar](255) NULL,
+	[weekly_icu_admissions_per_million] [nvarchar](255) NULL,
+	[weekly_hosp_admissions] [nvarchar](255) NULL,
+	[weekly_hosp_admissions_per_million] [nvarchar](255) NULL
+) ON [PRIMARY] 
+GO  
+
+INSERT INTO dbo.Covid19Deaths  
+SELECT [iso_code]
+      ,[continent]
+      ,[location]
+      ,[date]
+      ,[population]
+      ,[total_cases]
+      ,[new_cases]
+      ,[new_cases_smoothed]
+      ,[total_deaths]
+      ,[new_deaths]
+      ,[new_deaths_smoothed]
+      ,[total_cases_per_million]
+      ,[new_cases_per_million]
+      ,[new_cases_smoothed_per_million]
+      ,[total_deaths_per_million]
+      ,[new_deaths_per_million]
+      ,[new_deaths_smoothed_per_million]
+      ,[reproduction_rate]
+      ,[icu_patients]
+      ,[icu_patients_per_million]
+      ,[hosp_patients]
+      ,[hosp_patients_per_million]
+      ,[weekly_icu_admissions]
+      ,[weekly_icu_admissions_per_million]
+      ,[weekly_hosp_admissions]
+      ,[weekly_hosp_admissions_per_million]
+  FROM [Covid19WorldData].[dbo].[Covid19CompleteData]  -- If you are using different DB name or table name please replace the same
+  Go
