@@ -29,6 +29,10 @@
 ### 1. Loading Covid 19 data into SQL Server Database 
 
 <p> First we will download the data from [https://ourworldindata.org/](https://ourworldindata.org/covid-deaths). Navigate to link 
+     
+<p/>  
+ 
+ []
  
  
  Loading latest Covid 19 Data from [https://ourworldindata.org/](https://ourworldindata.org/covid-deaths) onto SQL Server DB
